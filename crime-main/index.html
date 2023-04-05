@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Project</title>
+    <link rel="stylesheet" href="./static/css/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <div class="left_area">
+        <h3>Welcome <span>!</span></h3>
+      </div>
+<!--      <div class="right_area">-->
+<!--        <a href="forest_fire.html" class="forest_fire">Predict</a>-->
+<!--      </div>-->
+    </header>
+    <!--header area end-->
+    <!--mobile navigation bar start-->
+    <div class="mobile_nav">
+      <div class="nav_bar">
+<!--        <img src="1.png" class="mobile_profile_image" alt="">-->
+        <i class="fa fa-bars nav_btn"></i>
+      </div>
+      <div class="mobile_nav_items">
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span>Top 5 Crimes in Chicago</span></a>
+        <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
+        <a href="#"><i class="fas fa-th"></i><span>Forms</span></a>
+        <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+      </div>
+    </div>
+    <!--mobile navigation bar end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+<!--      <div class="profile_info">-->
+<!--        <img src=" 1.png" class="profile_image" alt="">-->
+<!--        <h4>Jessica</h4>-->
+<!--      </div>-->
+
+      <a href="./templates/index"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+<!--      <a href="./static/images/download.png" target="_blank"><i class="fas fa-cogs"></i><span>Top 5 Crimes in Chicago</span></a>-->
+      <a href="./static/images/sc.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Most Occurring Criminal Offences</span></a>
+        <a href="./static/images/oa (1).png" target="_blank"><i class="fas fa-sliders-h"></i><span>Frequency of Top 5 Crimes</span></a>
+      <a href="./static/images/adi.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Arrests vs Crime types</span></a>
+      <a href="./static/images/do.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Unsafest Hours in Chicago</span></a>
+        <a href="./static/images/abb.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Number of crimes vs Hour</span></a>
+        <a href="./static/images/abc.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Theft over a Day</span></a>
+        <a href="./static/images/acd.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Theft over 24 Hour</span></a>
+        <a href="./static/images/av.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Concentration of a Particular Crime</span></a>
+        <a href="./static/images/cd.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Most Occurring Criminal Offences District Wise</span></a>
+        <a href="./static/images/dv.png" target="_blank"><i class="fas fa-sliders-h"></i><span>Time Series Graph</span></a>
+<!--         <a href="{{ ('forest_fire.html') }}" target="_blank"><i class="fas fa-sliders-h"></i><span>Predict Crime Probability</span></a>-->
+
+        <a href="predict.html" target="_blank" class="forest_fire"><i class="fas fa-sliders-h"></i> Predict </a>
+
+        <br> <br>
+    </div>
+    <!--sidebar end-->
+
+    <div class="content">
+      <div class="card">
+        <div class="section no-pad-bot" id="index-banner">
+     <div class="container">
+      <br><br>
+      <h1 class="header center header col s12 light"><big><big>Predict Crime Occurrences</h1>
+    </div>
+    </div>
+      </div>
+      <div class="card">
+        <div class="row center"> <br>
+        <h1 class="header col s12 light">Chicago Crime Rate Analysis <br> </h1>
+      </div>
+      </div>
+    </div>
+
+    <script src="./static/js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src=".js/materialize.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
